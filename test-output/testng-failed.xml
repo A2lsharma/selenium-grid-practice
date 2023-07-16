@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [BlogSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Chrome Test1(failed)">
+    <parameter name="Port" value="5555"/>
+    <classes>
+      <class name="Google">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openGoogle" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Google -->
+    </classes>
+  </test> <!-- Chrome Test1(failed) -->
+</suite> <!-- Failed suite [BlogSuite] -->

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="BlogSuite" parallel="tests">
+    <test name="Chrome Test1">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+  <!--  <test name="Edge Test2">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test3">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test4">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test5">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test6">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test7">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test8">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test9">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test10">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test11">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test12">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test13">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test14">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Chrome Test15">
+        <parameter name="Port" value="5555"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>
+    <test name="Edge Test16">
+        <parameter name="Port" value="6666"/>
+        <classes>
+            <class name="Google"/>
+        </classes>
+    </test>-->
+</suite>
